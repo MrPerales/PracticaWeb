@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --relaway:'Raleway', sans-serif;        /*variables con tipografia*/
+    --open-sans:'Open Sans', sans-serif;    
+
+
+    --very-dark-blue: hsl(243, 87%, 12%);   /*variables con color */
+    --desaturated-blue: hsl(238, 22%, 44%);
+
+    --bright-blue: hsl(224, 93%, 58%);
+    --moderate-cyan: hsl(170, 45%, 43%);
+    
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-gray: hsl(0, 0%, 75%);
+
+    --padding-container:80px 0;
+}
+body{
+    
+    font-family: var(--open-sans);
+}
+.container{
+    /*background: #000;*/
+    width:90%;
+    max-width: 1200px;      /*que no revace ese ancho*/
+    margin:0 auto;
+    overflow: hidden;  /*si se sale de los parametros se esconda*/
+    padding: var(--padding-container);
+}
+.hero{
+    min-height: 100vh; /*alto minimo*/
+    position: relative;
+
+}
+.hero__nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    --padding-container:30px 0 45px;
+}
+.hero__logo{
+    width: 25%;
+    max-width: 160px;
+}
+.hero__huddle{
+    width: 100%;
+    display: block;/* para quitar el margen que traen por defecto las imagenes*/
+}
+.hero__ul{
+    display: flex;
+    justify-content:;
+    padding: 0;
+}
+.hero__ul li{
+    list-style: none;
+}
+.ul__li{
+    text-decoration:none;
+    padding: 10px;
+    color:var(--very-dark-blue);
+    font-weight: 400;
+    font-size: 12px;
+
+}
