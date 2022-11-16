@@ -159,7 +159,7 @@ body{
 }
 .section_paragraph{
     font-family: var(--open-sans);
-    color:var(--light-gray);
+    color:var(--very-dark-blue);
     font-size: 14px;
     padding: 10px;
 }
@@ -226,6 +226,8 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 70px;
+    align-items: center; /**/
 }
 .section2__texts{
     text-align: center;
@@ -240,10 +242,12 @@ body{
     font-size: 16px;
     padding: 25px;
 }
+/**/
 .div-input{
+    width: 100%;
    display: flex;
    flex-direction: column;
-    align-items: center;
+   margin-left: 100px;
    gap: 15px;
 }
 .section2-input{
@@ -263,4 +267,58 @@ body{
     font-size: 12px;
     background-color: var(--bright-blue);
     border-radius: 5px;
+    border: none;
 }
+/*---------------------------------foooter------------------------------*/
+.footer__container{
+    background-color: var(--very-dark-blue);
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 30px;
+    
+}
+.footer__logo{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.footer-img{
+    filter:  opacity(0.4) drop-shadow(0 0 0 #fff);
+    color:#fff;
+}
+.footer__contacto{
+    
+    padding: 20px 40px;
+}
+.footer__contacto::after{
+    content: "Phone: +1-543-123-4567";
+    padding-left: 10px;
+}
+.footer__mail::after{
+    content: "example@fylo.com";
+    padding-left: 10px;
+}
+.contacto-img{
+    width: 25px;
+    height: 20px;
+}
+.mail-img{
+    width: 25px;
+    height: 20px;
+}
+.footer__mail{
+    padding: 0 40px;
+    display: flex;
+}
+.lista-ul{
+    list-style: none;
+    padding-left: 20px;
+}
+.lista-items{
+    text-decoration: none;
+    color: #fff;
+}
+.lista-ul li{
+    margin: 20px;
+}
+

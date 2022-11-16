@@ -1,0 +1,138 @@
+@media (min-width:780px) {
+    /*------------------------------header---------------------------------*/
+    .hero{
+        --wave-bottom:url('../images/bg-curve-desktop.svg')
+    }
+    .hero__main{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hero__texts{
+        /*outline: 1px solid red;*/
+        margin: 20px;
+        width: 50%;
+        max-width: 500px;
+    }
+    .input-email{
+        width: 60%;
+    }
+    .input-boton{
+        width: 40%;
+        margin: 12px;
+    }
+    .hero__input{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    /*------------------------------header---------------------------------*/
+    /*------------------------------main---------------------------------*/
+
+    .section__texts{
+        
+        text-align: left;
+        margin: 10px;
+        
+    }
+    .subtitules{
+        font-size: 25px;
+        padding: 10px ;
+
+    }
+    .section_paragraph{
+        width: 50%;
+        font-size: 10px;
+    
+    }
+    .section__link{
+        
+        justify-content: left;
+        padding: 10px;
+    }
+    .section__coment{
+        width: 45%;
+       margin:20px 10px;
+    }    
+    .section__container{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .section2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .section2__texts{
+       
+        text-align: left;
+        width: 40%;
+        margin: 40px;
+    }
+    .s2-subtitules{
+        margin-left: 25px;
+        font-size: 24px;
+    }
+    /***-----------***/
+    .div-input{
+        
+        width: 50%;
+        margin: 50px;
+        height: 50%;
+        
+        
+    }
+
+    .submit{
+       
+       width: 35%; 
+    }
+    
+    /*------------------------------main---------------------------------*/
+    /*------------------------------footer---------------------------------*/
+    .footer__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .footer__logo{
+        display: block;
+        margin: 10px;
+        
+    }
+    .div__log-contact{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .div__lista{
+        margin-top: 100px;
+        
+        display: flex;
+        justify-content: space-between;
+        gap:70px;
+        padding: 15px;
+    }
+    .div__redes{
+        
+        width: 100px;
+        height: 100px;
+    }
+
+
+
+
+
+
+
+
+
+    /*------------------------------footer---------------------------------*/
+}
